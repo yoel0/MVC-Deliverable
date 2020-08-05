@@ -7,6 +7,14 @@
     <title>About</title>
   </head>
   <body>
+    <%-include("../partials/header.ejs")%>
     <h1>About me, darling.</h1>
+    <h3><%= fave %></h3>
+    <ul>
+      <% fave.forEach(eachFave => { %>
+      <li><%= eachFave %></li>
+      <% }) %>
+    </ul>
+    <%-include("../partials/footer.ejs")%>
   </body>
 </html>
