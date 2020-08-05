@@ -1,0 +1,23 @@
+{
+  "name": "Views-Deliverable",
+  "version": "1.0.0",
+  "description": "This is a Node/Express Project Repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoel0/Views-Deliverable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoel0/Views-Deliverable/issues"
+  },
+  "homepage": "https://github.com/yoel0/Views-Deliverable#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
